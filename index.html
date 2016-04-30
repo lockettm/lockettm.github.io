@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Measuring App User Engagement</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+<!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                       Mobile UE
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Introduction</a>
+                </li>
+                <li>
+                    <a href="metrics.html">Metrics</a>
+                </li>
+                <li>
+                    <a href="tools.html">Tools</a>
+                </li>
+                <li>
+                    <a href="analyze.html">Analyze</a>
+                </li>
+               
+                
+                 <li>
+                    <a href="references.html">References</a>
+                </li>
+            
+                <li>
+                    <a href="https://twitter.com/meshalockett">Contact</a>
+                </li>
+                
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="green"><em>“Measurement is the first step that leads to control and eventually to improvement. If you can’t measure something, you can’t understand it. If you can’t understand it, you can’t control it. If you can’t control it, you can’t improve it.”</em> - H. James Harrington</p>
+
+                        <h1>Mobile App User Engagement</h1>
+
+                        <p>New to app analytics? Have an app that’s not performing well? The process of understanding how your users engage with your app is critical if want to compete in today’s app market. This guide outlines the core principles and practices of mobile app user engagement analysis. It covers everything you need to know to get started with measuring and thus improving your app’s stickiness and engagement.</p>
+
+                        <img src="img/app-metrics.png" alt="Acquisition, Engagement, and Outcomes diagram" class="img-responsive" width="50%" style="float:right"><h1>Acquisition, Engagement, and Outcomes</h1>
+
+                        <p>Before we explore the specifics of user engagement, it’s important to acknowledge the full framework of mobile app metrics. According to Google’s <a href ="http://analytics.blogspot.co.uk/2013/05/webinar-on-wed-613-metrics-for-mobile.html">analytics advocate</a>, this includes acquisition, engagement, and outcomes. Although all are important for a successful app, engagement is the most critical of the three when optimizing for a mobile user experience and improves the metrics of both acquisition and outcomes. For example, if an app has high user engagement it’s more likely to see an increase in new users due to word-of-mouth marketing. It’s also likely to see an increase of in-app purchases due to users having more meaningful encounters within the app.</p>
+
+						<div class="row">
+						  <div class="col-sm-4">
+						  <h1>Acquisition</h1>
+						  <ul style="list-style: none; list-style-position:inside; margin:0; padding:0; ">
+							  <li>Downloads</li>
+							  <li>New Users</li>
+							  <li>Active Users</li>
+							  <li>Demographics</li>
+							  <li>Acquisition Channels</li>
+						  </ul>
+
+						  </div>
+						  <div class="col-sm-4">
+						  <h1>Engagement</h1>
+						  <ul style="list-style: none; list-style-position:inside; margin:0; padding:0; ">
+							  <li>Engagement Flow</li>
+							  <li>User Loyalty and Retention</li>
+							  <li>Top Screens</li>
+							  <li>App Crashes</li>
+							  <li>Events</li>
+						  </ul></div>
+						  <div class="col-sm-4">
+						  <h1>Outcomes</h1>
+						  <ul style="list-style: none; list-style-position:inside; margin:0; padding:0; ">
+							  <li>App Sales</li>
+							  <li>Ad Monetization</li>
+							  <li>In-app Purchases</li>
+							  <li>Goal Conversions</li>
+							  
+						 </ul>
+						  </div>
+						</div>
+
+
+                        <h1>What is User Engagement</h1>
+                        
+                        <p class="green">
+						<em>“User engagement is a quality of the user experience that emphasizes the phenomena associated with wanting to use a technological resource longer and frequently.”</em> -Attfield</p>
+
+						<p>User engagement is an aspect of user experience that describes the user wanting to engage with a system frequently and for a long period of time. It emphasizes the positive characteristics of interaction that keeps the user captivated by the technology (Attfield et al, 2011). Engagement is also referred to as a subset of flow, (Webster & Ahuja, 2004, p. 8) which is when people are so absorbed with an activity that nothing else seems to matter (Csikszentmihalyi, 1990, p. 4).</p>
+
+						<h1>Characteristics of user engagement include the following:</h1>
+						<ul style="list-style: none; list-style-position:inside; margin:0; padding:0; ">
+							  <li><em class="green">Focused attention</em> to be engaged users must be focused</li>
+							  <li><em class="green">Positive Affect</em> emotions experienced are intrinsically motivating</li>
+							  <li><em class="green">Aesthetics</em> visual appeal of interface</li>
+							  <li><em class="green">Novelty</em> surprise encourages repeated engagement</li>
+							  <li><em class="green">Richness and control</em> growth potential</li>
+							  <li><em class="green">Reputation, trust, and expectation</em> necessary condition for user engagement</li>
+							  <li><em class="green">Endurability</em> wanting to repeat enjoyable experiences</li>
+							  <li><em class="green">Context, motivation, incentives and benefits</em> laboratory style experiments are difficult</li>
+							  <li>(Lalmas, O'Brien, and Yom-Tov, 2013)</li>
+							  
+						 </ul>
+
+						<h1>Why is User Engagement Important for my App?</h1>
+						<p>The app market is competitive, according to Apple more than 800 apps are downloaded every second from Apple's <a href="http://www.apple.com/pr/library/2013/05/16Apples-App-Store-Marks-Historic-50-Billionth-Download.html"> App Store</a>. However downloads aren’t enough, nearly 22 percent of apps are never used more than once, which is why engagement is critical to an app’s success. Acquiring users is important, but if someone downloads your app and only uses it once you’re likely not seeing a return on your investment.</p>
+
+						<p>If you have an app that’s engaging, not only will your current users stick around increasing ad revenue or in-app purchases, but they’re also more likely to recommend your app to their friends. Referrals are an inexpensive way to drive downloads, and with 92% of consumers saying they <a href="http://www.nielsen.com/us/en/insights/reports/2012/global-trust-in-advertising-and-brand-messages.html">trust recommendations from family and friends</a> above all other forms of advertising, it’s a meaningful and effective way to connect with potential users.</p>
+
+						<h1>How Can I Measure User Engagement?</h1>
+						<p>There are three basic ways to measure user engagement:</p>
+						<ul style="list-style: none; list-style-position:inside; margin:0; padding:0; ">
+						<li><em class="green">Self-reported</em> Questionnaires, interviews, think-aloud protocol</li>
+						<li><em class="green">Physiology</em> Eye  tracking, mouse movement, EEG (brain waves)</li>
+						<li><em class="green">Analytics</em> Data from user interaction</li>
+
+						</ul>
+
+						<p>You can use a combination of each approach but analytics provide objective, scalable, and easy to obtain data.</p>
+
+						<p>Although self-reported measures like surveys give valuable insight they can be unnatural and interruptive. Furthermore, Jacob Nielsen argues that the <a href="https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/">first rule of usability</a> is don’t listen to users as insight collected from surveys isn’t always truthful.</p>
+
+						<p>Physiology measures that detect changes in the brain or pupil diameter may be objective but the equipment is often expensive and cumbersome to use.</p>
+
+
+<nav>
+  <ul class="pagination">
+    <li>
+     
+    </li>
+    <li class="active"><a href="index.html">1</a></li>
+    <li><a href="metrics.html">2</a></li>
+    <li><a href="tools.html">3</a></li>
+    <li><a href="analyze.html">4</a></li>
+    <li><a href="references.html">5</a></li>
+    <li>
+      <a href="metrics.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+                        <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
